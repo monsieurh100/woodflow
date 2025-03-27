@@ -17,6 +17,7 @@
 	<title>AdminKit Demo - Bootstrap 5 Admin Template</title>
 
 	<link href="css/app.css" rel="stylesheet">
+	<link href="css/caroussellestyle.css" rel="stylesheet"  >
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
@@ -155,86 +156,181 @@
 				<div class="container-fluid p-0">
 
 					<h1 class="h3 mb-3"><strong>Tableau de bord</strong> </h1>
-
-					<div class="row">
-						<div class="col-12" style="display: flex;height: 25vh;" >
-							<div class="card flex-fill">
-								<div class="card-header">
-
-									<h5 class="card-title mb-0">Transaction</h5>
-								</div>
-								<table class="table table-hover my-0">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th class="d-none d-xl-table-cell">Qté</th>
-											<th class="d-none d-xl-table-cell">Prix</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Produit</td>
-											<td class="d-none d-xl-table-cell">01/01/2021</td>
-											<td class="d-none d-xl-table-cell">31/06/2021</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
+					<!-- test de carousselle -->
+					<div class="row" style="width: 100%;">
+					<div class="col">
+						<div class="carrousselHead" >
+							<button class="btn btn-primary" id="btnCarouselleHaut" >haut</button>
+							<button class="btn btn-primary" id="btnCarouselleBas"  >bas</button>
 						</div>
-						<div class="col-4" style="display: flex;height: 50vh;" >
-							<div class="card flex-fill">
-								<div class="card-header">
-
-									<h5 class="card-title mb-0">Matière prémière</h5>
+						<div class="mycarousselle">
+							<section class="animationSection" >
+								<div class="card" style="display: flex;height: 70vh;">
+									<div class="card-header">
+	
+										<h5 class="card-title mb-0">
+											01 Janv 2025 <br> approvionnement <br> N° 12345678
+										</h5>
+									</div>
+									
+									<div class="row"  >
+										<div class="col">
+											<div class="card-header">
+	
+												<h5 class="card-title mb-0"></h5>
+											</div>
+											<table class="table table-hover my-0">
+												<thead>
+													<tr>
+														<th>Matière prémière</th>
+													</tr>
+												</thead>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th class="d-none d-xl-table-cell">Qté</th>
+														<th class="d-none d-xl-table-cell">Prix</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Produit</td>
+														<td class="d-none d-xl-table-cell">01/01/2021</td>
+														<td class="d-none d-xl-table-cell">31/06/2021</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<dvi class="col-1" style="display: flex;align-items: center;" >-></dvi>
+										<div class="col">
+											<div class="card-header">
+	
+												<h5 class="card-title mb-0"></h5>
+											</div>
+											<table class="table table-hover my-0">
+												<thead>
+													<tr>
+														<th>Produit</th>
+													</tr>
+												</thead>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th class="d-none d-xl-table-cell">Qté</th>
+														<th class="d-none d-xl-table-cell">Prix</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Produit</td>
+														<td class="d-none d-xl-table-cell">01/01/2021</td>
+														<td class="d-none d-xl-table-cell">31/06/2021</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+										
+									</div>
+	
+									
+									
 								</div>
-								<table class="table table-hover my-0">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th class="d-none d-xl-table-cell">Qté</th>
-											<th class="d-none d-xl-table-cell">Prix</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Produit</td>
-											<td class="d-none d-xl-table-cell">01/01/2021</td>
-											<td class="d-none d-xl-table-cell">31/06/2021</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
+							
+	
+							</section>
+							<section class="animationSection" >
+								<div class="card" style="display: flex;height: 70vh;">
+									<div class="card-header">
+	
+										<h5 class="card-title mb-0">
+											01 Janv 2025 <br> approvionnement <br> N° 12345678
+										</h5>
+									</div>
+									
+									<div class="row"  >
+										<div class="col">
+											<div class="card-header">
+	
+												<h5 class="card-title mb-0"></h5>
+											</div>
+											<table class="table table-hover my-0">
+												<thead>
+													<tr>
+														<th>Matière prémière</th>
+													</tr>
+												</thead>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th class="d-none d-xl-table-cell">Qté</th>
+														<th class="d-none d-xl-table-cell">Prix</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Produit</td>
+														<td class="d-none d-xl-table-cell">01/01/2021</td>
+														<td class="d-none d-xl-table-cell">31/06/2021</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<dvi class="col-1" style="display: flex;align-items: center;" >-></dvi>
+										<div class="col">
+											<div class="card-header">
+	
+												<h5 class="card-title mb-0"></h5>
+											</div>
+											<table class="table table-hover my-0">
+												<thead>
+													<tr>
+														<th>Produit</th>
+													</tr>
+												</thead>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th class="d-none d-xl-table-cell">Qté</th>
+														<th class="d-none d-xl-table-cell">Prix</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Produit</td>
+														<td class="d-none d-xl-table-cell">01/01/2021</td>
+														<td class="d-none d-xl-table-cell">31/06/2021</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+										
+									</div>
+	
+									
+									
+								</div>
+							
+	
+							</section>
 						</div>
 						
-						<div class="col-4" style="display: flex;height: 50vh;"  >
-							<div class="card flex-fill">
-								<div class="card-header">
-
-									<h5 class="card-title mb-0">Produits</h5>
-								</div>
-								<table class="table table-hover my-0">
-									<thead>
-										<tr>
-											<th>Nom</th>
-											<th class="d-none d-xl-table-cell">Qté</th>
-											<th class="d-none d-xl-table-cell">Prix</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Project Wombat</td>
-											<td class="d-none d-xl-table-cell">01/01/2021</td>
-											<td class="d-none d-xl-table-cell">31/06/2021</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
+					</div>
+						
+					</div>
+					<!-- Transaction  -->
+					<div class="row"  >
+						<div class="col-12" >
 						</div>
-						<div class="col-4" style="display: flex;height: 50vh;" >
+					</div>
+					<!-- stock matière prémière -->
+					<div class="row">
+						<div class="col-8">
 							<div class="card flex-fill">
 								<div class="card-header">
 
-									<h5 class="card-title mb-0">Charges</h5>
+									<h5 class="card-title mb-0">Stock des matière prémière</h5>
 								</div>
 								<table class="table table-hover my-0">
 									<thead>
@@ -242,20 +338,203 @@
 											<th>Name</th>
 											<th class="d-none d-xl-table-cell">Start Date</th>
 											<th class="d-none d-xl-table-cell">End Date</th>
+											<th>Status</th>
+											<th class="d-none d-md-table-cell">Assignee</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
+											<td>Project Apollo</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+										</tr>
+										<tr>
+											<td>Project Fireball</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-danger">Cancelled</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+										<tr>
+											<td>Project Hades</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Sharon Lessman</td>
+										</tr>
+										<tr>
+											<td>Project Nitro</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+										</tr>
+										<tr>
+											<td>Project Phoenix</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+										<tr>
+											<td>Project X</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Sharon Lessman</td>
+										</tr>
+										<tr>
+											<td>Project Romeo</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Christina Mason</td>
+										</tr>
+										<tr>
 											<td>Project Wombat</td>
 											<td class="d-none d-xl-table-cell">01/01/2021</td>
 											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
-						</div>
 						
 
+						</div>
+						<div class="col-4">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Browser Usage</h5>
+								</div>
+								<div class="card-body d-flex">
+									<div class="align-self-center w-100">
+										<div class="py-3">
+											<div class="chart chart-xs">
+												<canvas id="chartjs-dashboard-pie"></canvas>
+											</div>
+										</div>
+
+										<table class="table mb-0">
+											<tbody>
+												<tr>
+													<td>Chrome</td>
+													<td class="text-end">4306</td>
+												</tr>
+												<tr>
+													<td>Firefox</td>
+													<td class="text-end">3801</td>
+												</tr>
+												<tr>
+													<td>IE</td>
+													<td class="text-end">1689</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- stock produit -->
+					<div class="row">
+						<div class="col-7">
+							<div class="card flex-fill">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Stock des Produits</h5>
+								</div>
+								<table class="table table-hover my-0">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th class="d-none d-xl-table-cell">Start Date</th>
+											<th class="d-none d-xl-table-cell">End Date</th>
+											<th>Status</th>
+											<th class="d-none d-md-table-cell">Assignee</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Project Apollo</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+										</tr>
+										<tr>
+											<td>Project Fireball</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-danger">Cancelled</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+										<tr>
+											<td>Project Hades</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Sharon Lessman</td>
+										</tr>
+										<tr>
+											<td>Project Nitro</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+										</tr>
+										<tr>
+											<td>Project Phoenix</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+										<tr>
+											<td>Project X</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Sharon Lessman</td>
+										</tr>
+										<tr>
+											<td>Project Romeo</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Christina Mason</td>
+										</tr>
+										<tr>
+											<td>Project Wombat</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						
+
+						</div>
+						<div class="col-5">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Monthly Sales</h5>
+								</div>
+								<div class="card-body d-flex w-100">
+									<div class="align-self-center chart chart-lg">
+										<canvas id="chartjs-dashboard-bar"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="row">
@@ -450,6 +729,7 @@
 	<script src="js/app.js"></script>
 	<script src="js/sweetalert2@10.js"></script>
 	<script src="js/database.js"></script>
+	<script src="js/carousselle.js"></script>
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function() {

@@ -1,0 +1,11 @@
+.mycarousselle{
+	display: flex;
+	/* padding: 10px auto; */
+	flex-direction: column;
+	height: 75vh;
+	overflow: hidden;
+	border: none;
+}
+.mycarousselle section{
+	/* margin: 10px; */
+}
